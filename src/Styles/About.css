@@ -1,0 +1,27 @@
+.about-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  color: rgba(255, 255, 255, 0.87);
+  line-height: 1.6;
+}
+
+.about-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.about-container h2 {
+  margin-top: 1.5rem;
+  color: #a855f7; /* purple accent */
+}
+
+.about-container a {
+  color: #646cff;
+  text-decoration: none;
+}
+
+.about-container a:hover {
+  color: #535bf2;
+}

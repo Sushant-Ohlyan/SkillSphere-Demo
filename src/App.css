@@ -1,0 +1,20 @@
+/* General app container */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Reusable card style */
+.card {
+  padding: 1.5rem;
+  background: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Optional muted text */
+.read-the-docs {
+  color: #888;
+  font-size: 0.9rem;
+}
