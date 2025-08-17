@@ -1,6 +1,9 @@
 import axios from "axios";
+import dotenv from "dotenv";
 
-const API_KEY = "AIzaSyANkobyfVjRe1JgWtET35xHDS_gpVQcS6o"; // replace with your real key
+dotenv.config();
+
+const API_KEY = process.env.API_KEY;
 
 export const fetchTrendingVideos = async () => {
   const response = await axios.get(
